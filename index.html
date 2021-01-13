@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!-- Google Icon Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- IonIcons -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css'>
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="style.css">
+  <title>Form 10</title>
+</head>
+
+<body>
+
+  <div class="modal">
+    <div class="modal__row">
+      <div class="modal__loginIn">
+        <form class="form--login">
+          <h2 class="form--login__title">Log in</h2>
+          <ul class="form-list">
+            <li class="form-list__row">
+              <input type="text" placeholder="Username" required>
+              <span class="material-icons">
+                person
+              </span>
+            </li>
+            <li class="form-list__row">
+              <input type="text" placeholder="Password" minlength="8" maxlength="15" required>
+              <span class="material-icons">
+                lock
+              </span>
+            </li>
+            <li class="form-list__row--inline">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__lever"></span>
+                <p>Remember Me</p>
+              </label>
+              <button class="form--login__btn">
+                Log In
+              </button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="modal__signUp">
+        <h2>Have No Account ? <span class="text--highlight">Sign Up</span></h2>
+      </div>
+    </div>
+    <div class="modal__row-2">
+      <h1 class="row-2__title"> Coding : <span class="text--highlight">Trupti</span>
+      </h1>
+      </h1>
+    </div>
+  </div>
+
+  <div class="btn--login">
+    <input type="checkbox" class="btn--login__collapse-toogler"></input>
+    <div class="btn--login__collapse">
+      Login
+    </div>
+    <div class="btn--login__expand">
+      <ul>
+        <li>Login with Facebook</li>
+        <li>Login with Twitter</li>
+        <li>Login with Google +</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
